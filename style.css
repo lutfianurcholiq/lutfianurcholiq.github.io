@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    
+}
+body .container{
+    width: 100%;
+    /*margin-right: 0;*/
+    padding: 0;
+}
+
+.jumbotron{
+    font-family: sans-serif;
+    padding-top: 6rem;
+    background-color: #8ac4d0; 
+    width: 100%;
+    margin: 0em;
+}
+.jumbotron h1{
+    padding-top: 1rem;
+}
+
+#projects{
+    background-color: #8ac4d0;
+    margin-right: 0em;
+}
+
+#contact{
+    background-color: #8ac4d0;
+    margin: 0 12px 0 12px;
+}
+
+iframe{
+    padding: 2rem 1rem;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+#skill img{
+    width: 82%;
+    height: 80%;
+}
+
+footer{
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 3rem;
+}
+nav{
+    background-color: #28527a;
+}
+
