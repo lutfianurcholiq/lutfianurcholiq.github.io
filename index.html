@@ -30,19 +30,19 @@
           <ul class="navbar-nav ms-auto">
             <!--ms = margin start-->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about">Tentang</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill">Skill</a>
+              <a class="nav-link" href="#skill">Kemampuan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Hubungi</a>
             </li>
           </ul>
         </div>
@@ -50,12 +50,10 @@
     </nav>
 
     <!--end navbar-->
-
-    
-
+  
     <!--start jumbotron-->
     <section class="jumbotron text-center">
-      <img src="image/jalan.jpeg" alt="profile" width="200px" height="200px"
+      <img src="image/jalan.jpeg" alt="profile" width="190px" height="190px"
       class="rounded-circle shadow-sm">
       <h1 class="display-4">Lutfian Nurcholiq</h1>
       <p class="lead">Web Developer | Blogger</p>
@@ -70,12 +68,12 @@
         <div class="container">
           <div class="row text-center mb-3">
             <div class="col">
-              <h2>About Me</h2>
+              <h2>Tentang</h2>
             </div>
           </div>
           <div class="row justify-content-center fs-5">
             <div class="col-md-7">
-              <p>Saya adalah seorang fresh graduate dari Sistem Informasi Akuntansi, Universitas Telkom. Saya memiliki ketertarikan terhadap web development dari perencanaan hingga pengujian website dengan menggunakan blackbox testing. Saya mempunyai keinginan untuk mengetahui sesuatu hal baru yang baru saya temukan dan saya akan mempelajari serta menginplementasikan.</p>
+              <p style="text-align: justify;">Saya adalah seorang fresh graduate dari Sistem Informasi Akuntansi, Universitas Telkom. Saya memiliki ketertarikan terhadap web development dari perencanaan hingga pengujian website dengan menggunakan blackbox testing. Saya mempunyai keinginan untuk mengetahui sesuatu hal baru yang baru saya temukan dan saya akan mempelajari serta menginplementasikan.</p>
             </div>
           </div>
         </div>
@@ -89,11 +87,11 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Projects</h2>
+            <h2>Project</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-8">
             <div class="ratio ratio-16x9">
               <iframe src="image/videos/projects-1.mp4" title="myprojects" allowfullscreen></iframe>
             </div>
@@ -101,7 +99,7 @@
           <div class="col-md-4 justify-content-center">
             <br>
             <strong>Keterangan</strong>
-            <p>Project tersebut adalah tugas akhir pada toko kue di daerah Rancaekek yang di kembangkan dengan framework Codeigniter dengan bahasa pemograman PHP dengan menggunakan database MySQL </p>
+            <p style="text-align: justify;">Project tersebut adalah tugas akhir pada toko kue di daerah Rancaekek yang di kembangkan dengan framework Codeigniter dengan bahasa pemograman PHP dengan menggunakan database MySQL </p>
           </div>
         </div>
       </div>
@@ -115,7 +113,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>Skill</h2>
+            <h2>Kemampuan</h2>
           </div>
         </div>
         <div class="row justify-content-center mt-5">
@@ -142,7 +140,7 @@
       <div class="containter">
         <div class="row text-center">
           <div class="col mt-3">
-            <h2>Contact Me</h2>
+            <h2>Hubungi saya</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -150,17 +148,21 @@
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name">
+                <input type="text" class="form-control" id="name" placeholder="Silahkan isi Nama Lengkap">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="text" class="form-control" id="email">
+                <input type="text" class="form-control" id="email" placeholder="contoh@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="perusahaan" class="form-label">Perusahaan</label>
+                <input class="form-control" id="perusahaan" rows="3" placeholder="Silahkan isi asal perusahaan">
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" placeholder="Silahkan isi pesan untuk saya"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-success">Kirim</button>
             </form>
           </div>
         </div>

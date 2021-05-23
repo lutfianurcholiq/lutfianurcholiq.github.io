@@ -9,7 +9,7 @@ body .container{
 }
 
 .jumbotron{
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 6rem;
     background-color: #8ac4d0; 
     width: 100%;
@@ -50,4 +50,6 @@ footer{
 nav{
     background-color: #28527a;
 }
-
+p{
+    font-size: medium;
+}
