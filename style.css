@@ -8,25 +8,27 @@ body .container{
     padding: 0;
 }
 
+h2{
+    font-family: calibri;
+
+}
+
+.jumbotron img{
+    float: inline-end;
+    width: 300px;
+    height: 290px;
+}
+
 .jumbotron{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 6rem;
+    font-family: lucida bright;
+    color: #34656d;
+    padding-top: 13rem;
     background-color: #8ac4d0; 
     width: 100%;
     margin: 0em;
 }
 .jumbotron h1{
     padding-top: 1rem;
-}
-
-#projects{
-    background-color: #8ac4d0;
-    margin-right: 0em;
-}
-
-#contact{
-    background-color: #8ac4d0;
-    margin: 0 12px 0 12px;
 }
 
 iframe{
@@ -37,14 +39,10 @@ section{
     padding-top: 5rem;
 }
 
-#skill img{
-    width: 82%;
-    height: 80%;
-}
 
 footer{
-    background-color: #ffffff;
-    padding: 5px;
+    background-color: #ffff;
+    /*padding: 5px;*/
     margin-top: 3rem;
 }
 nav{
@@ -52,4 +50,48 @@ nav{
 }
 p{
     font-size: medium;
+}
+
+#skill{
+    background-color: #8ac4d0;
+}
+
+#skill img{
+    width: 82%;
+    height: 80%;
+}
+
+#contact{
+    margin: 0 12px 0 12px;
+}
+
+#about {
+    background-color: #8ac4d0;
+}
+
+#about p{
+    font-family: geneva;
+    font-size: 20px;
+    color: #393e46;
+    font-variant: initial;
+}
+
+#job p{
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#job img{
+    margin-left: 4rem;
+    height: 70%;
+    width: 70%;
+}
+
+#projects p{
+    font-family: geneva;
+    font-size: 20px;
+    color: #393e46;
+    font-variant: initial;
 }
