@@ -2,7 +2,7 @@ body{
     margin: 0;
     
 }
-body .container{
+.container{
     width: 100%;
     /*margin-right: 0;*/
     padding: 0;
@@ -14,7 +14,6 @@ h2{
 }
 
 .jumbotron img{
-    float: inline-end;
     width: 300px;
     height: 290px;
 }
