@@ -9,8 +9,8 @@ body{
 }
 
 h2{
-    font-family: calibri;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #02475e;
 }
 
 .jumbotron img{
@@ -21,12 +21,12 @@ h2{
 .jumbotron{
     font-family: lucida bright;
     color: #34656d;
-    padding-top: 13rem;
-    background-color: #8ac4d0; 
+    padding-top: 15rem;
+    background-color: #8ab6d6; 
     width: 100%;
     margin: 0em;
 }
-.jumbotron h1{
+.jumbotron h1 p{
     padding-top: 1rem;
 }
 
@@ -37,7 +37,6 @@ iframe{
 section{
     padding-top: 5rem;
 }
-
 
 footer{
     background-color: #ffff;
@@ -52,7 +51,7 @@ p{
 }
 
 #skill{
-    background-color: #8ac4d0;
+    background-color: #8ab6d6;
 }
 
 #skill img{
@@ -65,14 +64,19 @@ p{
 }
 
 #about {
-    background-color: #8ac4d0;
+    background-color: #8ab6d6;
 }
 
 #about p{
     font-family: geneva;
     font-size: 20px;
-    color: #393e46;
+    color: #34656d;
     font-variant: initial;
+}
+
+#about img{
+    width: 300px;
+    height: 290px;
 }
 
 #job p{
@@ -84,13 +88,12 @@ p{
 
 #job img{
     margin-left: 4rem;
-    height: 70%;
-    width: 70%;
+    height: 90%;
+    width: 65%;
 }
 
 #projects p{
     font-family: geneva;
     font-size: 20px;
     color: #393e46;
-    font-variant: initial;
 }
