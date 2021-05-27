@@ -8,6 +8,15 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #02475e;
+}
+
+h6{
+    color: #02475e;
+}
+
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #02475e;
@@ -38,13 +47,8 @@ section{
     padding-top: 5rem;
 }
 
-footer{
-    background-color: #ffff;
-    /*padding: 5px;*/
-    margin-top: 3rem;
-}
 nav{
-    background-color: #28527a;
+    background-color: #0c4271;
 }
 p{
     font-size: medium;
@@ -62,6 +66,10 @@ p{
 #contact{
     margin: 0 12px 0 12px;
 }
+#contact label p{
+    font-family: verdana;
+
+}
 
 #about {
     background-color: #8ab6d6;
@@ -71,7 +79,9 @@ p{
     font-family: geneva;
     font-size: 20px;
     color: #34656d;
-    font-variant: initial;
+    margin-left: 5px;
+    margin-left: 1rem;
+    text-align: justify;
 }
 
 #about img{
@@ -96,4 +106,13 @@ p{
     font-family: geneva;
     font-size: 20px;
     color: #393e46;
+}
+
+#footer{
+    background-color: #8ab6d6;
+    padding: 5px;
+}
+#footer p{
+    color: #34656d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
