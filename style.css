@@ -10,7 +10,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #02475e;
+    color: #fff;
 }
 
 h6{
@@ -81,9 +81,16 @@ p{
     font-family: geneva;
     font-size: 20px;
     color: #34656d;
-    margin-left: 5px;
-    margin-left: 1rem;
-    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+#about button{
+    margin-left: 2rem;
+    color: #ffff;
+}
+
+#about button:hover a{
+    color: white;
 }
 
 #about img{
@@ -108,6 +115,8 @@ p{
     font-family: geneva;
     font-size: 20px;
     color: #393e46;
+    margin-left: 2rem;
+    margin-right: 1rem;
 }
 
 #footer{
