@@ -14,7 +14,7 @@ a{
 }
 
 h6{
-    color: #02475e;
+    color: #393e46;
 }
 
 h2{
@@ -28,10 +28,11 @@ h2{
 }
 
 .jumbotron{
-    font-family: lucida bright;
+    font-family: georgia;
     color: #34656d;
     padding-top: 15rem;
-    background-color: #8ab6d6; 
+    background-color: #8ab6d6;
+    letter-spacing: 1px; 
     width: 100%;
     margin: 0em;
 }
@@ -48,8 +49,24 @@ section{
 }
 
 nav{
-    background-color: #0c4271;
+    background: transparent;
+}
 
+.navbar a{
+    font-family: sans-serif;
+}
+.navbar-default{
+    transition: 0.5s ease;
+    background: transparent;
+}
+
+.navbar-default.scrolled{
+    background:#3C8DAD;
+    
+}
+
+.navbar-default.scrolled{
+    color: #34656d;
 }
 
 p{
@@ -68,9 +85,8 @@ p{
 #contact{
     margin: 0 12px 0 12px;
 }
-#contact label p{
-    font-family: verdana;
-
+#contact p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #about {
@@ -80,7 +96,7 @@ p{
 #about p{
     font-family: geneva;
     font-size: 20px;
-    color: #34656d;
+    color: #393e46;
     margin-left: 2rem;
     margin-right: 1rem;
 }
@@ -123,7 +139,11 @@ p{
     background-color: #8ab6d6;
     padding: 5px;
 }
-#footer p{
-    color: #34656d;
+#footer h6{
+    color: #ffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer i{
+    color: #ffff;
+    letter-spacing: 10px;
 }
