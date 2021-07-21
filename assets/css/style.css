@@ -52,8 +52,13 @@ nav{
     background: transparent;
 }
 
+.navbar{
+    display: flex;
+}
+
 .navbar a{
     font-family: sans-serif;
+    margin-left: 1em;
 }
 .navbar-default{
     transition: 0.5s ease;
@@ -146,4 +151,4 @@ p{
 #footer i{
     color: #ffff;
     letter-spacing: 10px;
-}
+} 
