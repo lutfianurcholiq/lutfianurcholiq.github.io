@@ -11,16 +11,18 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--END AOS-->
+
     <!--MyCSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     
 
-    <title>My Portofolio Website</title>
+    <title>Portofolio Website</title>
   </head>
   <body>
-    <!--start navbar-->
-    <!--tidak ada text-left dan -right, gantinya jadi -start dan -end-->
-
+    
     <nav class="navbar navbar-default navbar-expand-lg navbar-dark navbar fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">LN</a>
@@ -40,9 +42,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#projects">Project</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="#skill">Skill</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
@@ -55,7 +57,7 @@
     <!--start jumbotron-->
     <section class="jumbotron">
       <div class="container">
-        <div class="row mt-8">
+        <div class="row mt-8 mb-3">
           <div class="col-md-7 ms-3">
             <h1 class="display-3">Hi, Lutfian Nurcholiq</h1>
             <p>Web Developer | Blogger | Student</p>
@@ -65,12 +67,33 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L60,240C120,224,240,192,360,165.3C480,139,600,117,720,133.3C840,149,960,203,1080,224C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
     <!--end jumbotron-->
 
-     <!--start skill-->
-     <section id="job">
+    <!--start about-->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row text-center mb-4">
+          <div class="col-md-12">
+            <h2>About</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right">
+            <p>Saya adalah seorang fresh graduate jurusan D3 Sistem Informasi Akuntansi, Universitas Telkom. Saya memiliki ketertarikan terhadap web development dari perencanaan hingga pengujian website dengan menggunakan blackbox testing. Saya mempunyai keinginan untuk mengetahui sesuatu hal baru yang baru saya temukan dan saya akan mempelajari serta menginplementasikan agar tidak tertinggal dengan pembaharuan teknologi yang semakin berkembang.</p>
+            <button class="btn btn-success"><a href="https://drive.google.com/file/d/1bTdMkuBA3uTkOYUxyNpfT5vJIx4-mGPg/view?usp=sharing">Download CV</a></button>
+          </div>
+          <div class="col-md-2 ms-5 mt-3">
+            <img src="assets/image/jalan.jpeg" alt="profile" class="rounded-circle text-center" data-aos="fade-left">
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+  <!--end about-->
+
+    <!--start skill-->
+    <!--<section id="job">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-4">
@@ -85,11 +108,11 @@
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8ab6d6" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,154.7C384,149,480,107,576,112C672,117,768,171,864,181.3C960,192,1056,160,1152,160C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
+    </section>-->
     <!--end skill-->
 
     <!--start about-->
-    <section id="about">
+    <!--<section id="about">
         <div class="container">
           <div class="row text-center mb-4">
             <div class="col-md-12">
@@ -108,8 +131,7 @@
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L40,266.7C80,277,160,299,240,293.3C320,288,400,256,480,229.3C560,203,640,181,720,181.3C800,181,880,203,960,224C1040,245,1120,267,1200,250.7C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-    </section>
-
+    </section>-->
     <!--end about-->
 
     <!--start card-->
@@ -133,39 +155,11 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8ab6d6" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,154.7C384,149,480,107,576,112C672,117,768,171,864,181.3C960,192,1056,160,1152,160C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
 
     <!--end card-->
    
     <!--start skill-->
-    <section id="skill">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h2>Skill</h2>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-3 mb-3">
-            <img src="assets/image/ci.png" alt="">
-          </div>
-          <div class="col-md-3 mb-3">
-            <img src="assets/image/php.png" alt="">
-          </div>
-          <div class="col-md-3 mb-3">
-            <img src="assets/image/html.png" alt="">
-          </div>
-          <div class="col-md-3 mb-3">
-            <img src="assets/image/css.png" alt="">
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L40,266.7C80,277,160,299,240,293.3C320,288,400,256,480,229.3C560,203,640,181,720,181.3C800,181,880,203,960,224C1040,245,1120,267,1200,250.7C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-    </section>
-    <!--end skill-->
-    
-    <!--start contact-->
     <section id="contact">
       <div class="containter">
         <div class="row text-center">
@@ -217,17 +211,41 @@
         </div>
       </div>
     </section>
-    <!--end contact-->
+    <!--<section id="skill">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Skill</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3 mb-3">
+            <img src="assets/image/ci.png" alt="">
+          </div>
+          <div class="col-md-3 mb-3">
+            <img src="assets/image/php.png" alt="">
+          </div>
+          <div class="col-md-3 mb-3">
+            <img src="assets/image/html.png" alt="">
+          </div>
+          <div class="col-md-3 mb-3">
+            <img src="assets/image/css.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--end skill-->
+    
 
     <!--start footer-->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8ab6d6" fill-opacity="1" d="M0,0L48,37.3C96,75,192,149,288,154.7C384,160,480,96,576,80C672,64,768,96,864,112C960,128,1056,128,1152,117.3C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    
     <section id="footer">
       <div class="container">
         <div class="row text-center mb-3">
             <h6>
             <a href="https://www.instagram.com/lutfian.n/"><i class="bi bi-instagram"></i></a> <a href="https://www.linkedin.com/in/lutfian-nurcholiq-1283641b3/"><i class="bi bi-linkedin"></i></a><a href="https://github.com/lutfianurcholiq"><i class="bi bi-github"></i></a><a href="https://www.youtube.com/channel/UCgNUylTMY7dyU7KOaUK93AA"><i class="bi bi-youtube"></i></a><a href="https://tek-for.blogspot.com/"><i class="fab fa-blogger"></i></a></h6>
         </div>
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-2">
           <h6><strong>Lutfianurcholiq &#169 </strong><script>document.write(new Date().getFullYear())</script></h6>
         </div>
       </div>
@@ -235,7 +253,13 @@
     </section>
     <!--end footer-->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
 
+      });
+    </script>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
